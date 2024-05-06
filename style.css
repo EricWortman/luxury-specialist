@@ -1,0 +1,22 @@
+.banner-container {
+    width: 100%;
+    height: 400px; /* Adjust height as needed */
+    overflow: hidden;
+  }
+  
+  #banner {
+    width: 100%; 
+    height: 100%;
+    object-fit: contain;
+    animation: rotateBanner 5s infinite; /* Change duration as needed */
+  }
+  
+  @keyframes rotateBanner {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
