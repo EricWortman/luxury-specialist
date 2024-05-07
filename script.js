@@ -24,6 +24,6 @@ document.addEventListener("DOMContentLoaded", function() {
   
     rotateBanner(); 
   
-    setInterval(rotateBanner, 5000); // Rotate every 5 seconds (adjust as needed)
+    setInterval(rotateBanner, 5000); 
   });
   
